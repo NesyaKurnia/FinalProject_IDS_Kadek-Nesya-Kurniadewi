@@ -25,4 +25,5 @@
 ![rangkaianalat](https://github.com/NesyaKurnia/FinalProject_IDS_Kadek-Nesya-Kurniadewi/blob/main/rangkaianalat.jpg)
 
 4. Upload code pada Arduino IDE ke Arduino, buka Serial Monitor untuk memastikan input dari sensor terbaca atau tidak
-5. Meneteskan air pada plat raindrops sensor, jika angka yang dibaca 1023 berarti kondisi normal (dry/tidak ada hujan), jika kurang dari 500 berarti ada air (hujan) dan buzzer akan berbunyi dan LED akan menyala
+5. Meneteskan air pada plat raindrops sensor, jika angka yang dibaca **1023** berarti **kondisi normal (dry/tidak ada hujan)**, jika **kurang dari 500** berarti **ada air (hujan)** dan buzzer akan berbunyi dan LED akan menyala
+#### Alert Message
