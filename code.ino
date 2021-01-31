@@ -21,5 +21,5 @@ void loop() {
     digitalWrite(buzzer, LOW);
     digitalWrite(led, LOW);
   }
-  delay(1000);
+  delay(3000);
 }
