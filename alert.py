@@ -3,8 +3,8 @@ import serial
 import time
 sense = serial.Serial('COM3', 9600)
 
-account_sid = 'AC633dbb4ed2cdf9a9592a5e9e5e5151e6'  
-auth_token = 'f93029443c8e8b1a84d7a519edc3a20b'
+account_sid = 'XXXXX'  
+auth_token = 'XXXXX'
 client = Client(account_sid, auth_token)
 
 output_tinggi = 1024 
@@ -24,7 +24,7 @@ while True:
 		message=client.messages.create(
 			body= messageTosend,
 			from_='whatsapp:+14155238886',
-			to='whatsapp:+6282145401774'
+			to='whatsapp:+62821XXXXXXXX'
         	)
 		time.sleep(1)
 
